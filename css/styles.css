@@ -1,0 +1,87 @@
+body {
+    font-family: 'Patrick Hand', cursive;
+    margin: initial;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.block {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background-color: rgb(7, 7, 7);
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+#sideNavbar a {
+    padding: 20px 10px 10px 25px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    border-top: 10px;
+    margin-left: 50px;
+}
+
+.sideNavbar a:hover {
+    color: blueviolet;
+}
+
+h1 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+p {
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 60px;
+}
+
+h2 {
+    color: black;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    font-size: 40px;
+    margin-left: 50px;
+    
+}
+
+.photos {
+    margin-left: 350px;
+    padding: 0 10px;
+}
+
+#profile img {
+    width: 250px;
+    height: 250;
+    margin-left: 25px;
+}
+
+#group1 img {
+    width: 400px;
+    height: 400px;
+}
+
+#group2 img {
+    width: 400px;
+    height: 400px;
+}
+
+#group3 img {
+    width: 400px;
+    height: 400px;
+}
+
+#group4 img {
+    width: 400px;
+    height: 400px;
+}
